@@ -1,3 +1,5 @@
+var ParseConfig = require('./parser');
+
 var Base = function (config) {
     ParseConfig(config, callback);
 }
