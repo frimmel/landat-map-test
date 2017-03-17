@@ -5,3 +5,7 @@ var Base = function (config) {
 var callback = function (data) {
     renderLayerList(data.layers)
 }
+
+window.Base = Base;
+
+export default {Base};
